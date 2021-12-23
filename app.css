@@ -3,7 +3,7 @@ body {
 }
 
 #mainNavbar {
-    font-size: 1.5rem;
+    font-size: 1.85rem;
 }
 
 #mainNavbar .navbar-brand {
@@ -12,11 +12,15 @@ body {
 }
 #mainNavbar .nav-link {
     color: black;
-    font-weight: 100;
 }
 
 #mainNavbar .nav-link:hover {
     color: #3516e6;
+}
+
+.navbar.scrolled {
+    background: rgb(83, 137, 236);
+    transition: background 350ms;
 }
 
 #headingGroup span {
@@ -28,7 +32,7 @@ body {
     font-size: 4rem;
 }
 
-@media (max-width: 1335px) {
+@media (max-width: 1118px) {
     #headingGroup h1 {
         font-weight: 100;
         font-size: 3rem;
@@ -42,10 +46,70 @@ h2 {
 }
 
 #maincontent {
-    margin-top: 125px;
+    margin-top: 250px;
 }
 
 #maincontent h1{
     text-align: center;
-    font-weight: 100;
+}
+
+#maincontent h3{
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+#maincontent p{
+    font-size: 1.5rem;
+    line-height: 2;
+}
+
+#callbutton {
+    font-size: 1.5rem;
+}
+
+@media (max-width: 1478px) {
+    #maincontent h3 {
+        font-size: 1.5rem;
+    }
+    #maincontent p {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    #maincontent h3 {
+        font-size: 1.25rem;
+    }
+    #maincontent p {
+        font-size: 1.05rem;
+    }
+    #titleheader {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    #maincontent h3 {
+        font-size: 1.25rem;
+        text-align: center;
+    }
+    #maincontent p {
+        font-size: 1.05rem;
+        text-align: center;
+    }
+    #titleheader {
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1118px) {
+    #mainNavbar {
+        font-size: 1.25rem;
+
+    }
+    #callbutton {
+        
+    }
 }

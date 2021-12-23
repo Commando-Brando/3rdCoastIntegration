@@ -20,34 +20,67 @@
 <body>
 
     <!-- nav bar stuff -->
-    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md fixed-top">
+    <nav id="mainNavbar" class="navbar navbar-light navbar-expand-lg justify-content-center fixed-top">
+        <a href="#" class="navbar-brand mx-5">
+            <img src="/img/navbarlogo.svg" width="150" height="150" alt="LOGO" loading="lazy" class="mx-5">
+        </a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="container-fluid justify-content-center">
-            <a href="#" class="navbar-brand mx-auto">LOGO</a>
-            <div class="collapse navbar-collapse justify-content-center" id="navLinks">
-                <ul class="navbar-nav">
-                    <li class="nav-item pr-3">
-                        <a href="#" class="nav-link">HOME</a>
-                    </li>
-                    <li class="nav-item pr-3">
-                        <a href="#" class="nav-link">SERVICES</a>
-                    </li>
-                    <li class="nav-item pr-3">
-                        <a href="" class="nav-link">ABOUT</a>
-                    </li>
-                    <li class="nav-item pr-3">
-                        <a href="contact.html" class="nav-link" id="contact">CONTACT</a>
-                    </li>
-                </ul>
+        <div class="collapse navbar-collapse justify-content-between mr-3" id="navLinks">
+            <ul class="navbar-nav">
+                <li class="nav-item pr-4">
+                    <a href="#" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item pr-4">
+                    <a href="#" class="nav-link">SERVICES</a>
+                </li>
+                <li class="nav-item pr-4">
+                    <a href="" class="nav-link">ABOUT</a>
+                </li>
+                <li class="nav-item pr-4">
+                    <a href="contact.html" class="nav-link" id="contact">CONTACT</a>
+                </li>
+                <li class="nav-item pr-4">
+                    <button type="button" class="btn btn-outline-primary py-2 px-2" id="callbutton">Call
+                        Now</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="maincontent" class="container-fluid">
+        <h1 id="titleheader" class="display-3">3<sup>rd</sup> Coast Integration</h1>
+
+        <!-- first row  -->
+        <div class="row flex-wrap justify-content-center align-items-center mt-5">
+            <div class="col-12 col-sm-5">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-9">
+                        <h3>Get quality security installation and management at a more afforable
+                            price</h3>
+                        <p>Welcome to Third Coast Integration, a local San Antonio based company
+                            created to
+                            serve broad security
+                            needs</p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-none d-sm-block col-sm-5">
+                <img src="/img/homegraphic.svg" class="img-fluid w-75 test" alt="Information Technology\nAt Its Finest">
+            </div>
+            <div class="d-none d-sm-block">
+                <img src="/img/semicircle1.svg" alt="" class="img-fluid w-100">
             </div>
         </div>
 
-    </nav>
-
-    <div id="maincontent" class="container">
-        <h1>3<sup>rd</sup> Coast Integration</h1>
+        <!-- ToDo: add 3 cards to represent the various services that are offerred  -->
+        <!-- 2nd row  -->
+        <div id="secondrow" class="row" style="background-color: #f2f6fc;">
+            <div class="col-12">
+                <h2 style="text-align: center;">Second Row Goes Here</h2>
+            </div>
+        </div>
     </div>
 
 
@@ -78,14 +111,14 @@
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 
-    <!-- <script>
-            $(function () {
-                $(document).scroll(function () {
-                    var $nav = $("#mainNavbar");
-                    $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-                })
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
             })
-        </script> -->
+        })
+    </script>
 
 </body>
 
