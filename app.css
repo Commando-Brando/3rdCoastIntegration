@@ -1,5 +1,6 @@
 body {
     font-family: "Nunito", sans-serif;
+    background-color: white;
 }
 
 #mainNavbar {
@@ -7,7 +8,7 @@ body {
 }
 
 #mainNavbar .navbar-brand {
-    color: #3516e6;
+    color: #007bff;
     font-size: 2rem;
 }
 #mainNavbar .nav-link {
@@ -15,16 +16,20 @@ body {
 }
 
 #mainNavbar .nav-link:hover {
-    color: #3516e6;
+    color: #007bff;
+}
+
+.navbar {
+    background: white;
 }
 
 .navbar.scrolled {
-    background: aliceblue;
+    background: #cddafd;
     transition: background 350ms;
 }
 
 #headingGroup span {
-    color: #00b4d8;
+    color: #007bff;
 }
 
 #headingGroup h1 {
@@ -46,7 +51,7 @@ h2 {
 }
 
 #maincontent {
-    margin-top: 250px;
+    background-color: white;
 }
 
 #maincontent h1{
@@ -58,18 +63,43 @@ h2 {
     line-height: 1.5;
 }
 
-#maincontent p{
+#firstrowp {
     font-size: 1.5rem;
     line-height: 2;
 }
 
-#callbutton {
-    font-size: 1.5rem;
+.secondrow{
+    font-size: 1.25rem;
+    text-align: center;
 }
 
-.titleimage {
-    margin: auto;
+.secrowheaders {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+#callbutton {
+    font-size: 1.15rem;
+}
+
+#titleimage {
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
+}
+
+.iconitems {
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
+
+#secondrow {
+    background-color: aliceblue;
 }
 
 @media (max-width: 1478px) {
@@ -82,30 +112,43 @@ h2 {
 }
 
 @media (max-width: 1000px) {
-    #maincontent h3 {
+    #firstrow h3 {
         font-size: 1.25rem;
     }
-    #maincontent p {
+    #firstrow p {
         font-size: 1.05rem;
     }
     #titleimage {
+        content:url("/img/smalllogo.svg");
         font-size: 2.5rem;
         text-align: center;
+    }
+    #secondrow p {
+        font-size: 1.10rem;
+    }
+    #secondrow h4 {
+        font-size: 1.35rem;
     }
 }
 
 @media (max-width: 600px) {
-    #maincontent h3 {
+    #firstrow h3 {
         font-size: 1.25rem;
         text-align: center;
     }
-    #maincontent p {
+    #firstrow p {
         font-size: 1.05rem;
         text-align: center;
     }
     #titleimage {
         font-size: 2rem;
         text-align: center;
+    }
+    #secondrow p {
+        font-size: 1rem;
+    }
+    #secondrow h4 {
+        font-size: 1.2rem;
     }
 }
 
@@ -114,7 +157,19 @@ h2 {
         font-size: 1.25rem;
 
     }
-    #callbutton {
-        
+}
+
+@media (max-width: 427px) {
+    #titleimage {
+        width: 250px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 325px) {
+    #brandlogo {
+        margin: auto;
     }
 }

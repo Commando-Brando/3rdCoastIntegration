@@ -21,7 +21,7 @@
 
     <!-- nav bar stuff -->
     <nav id="mainNavbar" class="navbar navbar-light navbar-expand-lg justify-content-center fixed-top">
-        <a href="#" class="navbar-brand ml-5">
+        <a id="brandlogo" href="#" class="navbar-brand ml-5">
             <img src="/img/navbarlogo.svg" width="100" height="100" alt="LOGO" loading="lazy" class="mx-5">
         </a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
@@ -42,27 +42,25 @@
                     <a href="contact.html" class="nav-link" id="contact">CONTACT</a>
                 </li>
                 <li class="nav-item pr-4">
-                    <button type="button" class="btn btn-outline-primary py-2 px-2" id="callbutton">Call
-                        Now</button>
+                    <button type="button" class="btn btn-outline-primary py-2 px-2 rounded-pill" id="callbutton">Get
+                        in
+                        touch</button>
                 </li>
             </ul>
         </div>
     </nav>
 
     <div id="maincontent" class="container-fluid">
-        <picture>
-            <source srcset="/img/smalllogo.svg" media="(max-width: 1000px)" />
-            <img class="titleimage" src="/img/mainlogo.svg" alt="Third Coast Integration">
-        </picture>
+        <img id="titleimage" src="/img/mainlogo.svg" alt="Third Coast Integrated">
 
         <!-- first row  -->
-        <div class="row flex-wrap justify-content-center align-items-center mt-5">
-            <div class="col-12 col-sm-5">
+        <div id="firstrow" class="row flex-wrap justify-content-center align-items-center mt-5">
+            <div class="col-12 col-xs-5">
                 <div class="row justify-content-center align-items-center">
-                    <div class="col-9">
+                    <div class="col-10 col-sm-9">
                         <h3>Get quality security installation and management at a more afforable
                             price</h3>
-                        <p>Welcome to Third Coast Integration, a local San Antonio based company
+                        <p id="firstrowp">Welcome to Third Coast Integration, a local San Antonio based company
                             created to
                             serve broad security
                             needs</p>
@@ -79,11 +77,49 @@
 
         <!-- ToDo: add 3 cards to represent the various services that are offerred  -->
         <!-- 2nd row  -->
-        <div id="secondrow" class="row" style="background-color: #f2f6fc;">
-            <div class="col-12">
-                <h2 style="text-align: center;">Second Row Goes Here</h2>
+        <div id="secondrow" class="row justify-content-center">
+            <div class="col-12 col-sm-6 col-med-4 col-lg-3 mt-5">
+                <img src="/img/wrenchlogo.svg" alt="logo" class="iconitems">
+                <h4 class="secrowheaders">Professional Installation</h4>
+                <div class="row justify-content-center">
+                    <div class="col-10 col-xs-8 col-sm-8 col-lg-10 col-xl-8">
+                        <p class="secondrow">Our skilled and experienced technicians will come out to your property and
+                            provide
+                            quick and convenient installation saving you time and money.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-med-4 col-lg-3 mt-5">
+                <img src="/img/roundsecuritylogo.svg" alt="logo" class="iconitems">
+                <h4 class="secrowheaders">Latest Camera Technology</h4>
+                <div class="row justify-content-center">
+                    <div class="col-10 col-xs-8 col-sm-8 col-lg-10 col-xl-8">
+                        <p class="secondrow">We only use the best and newest cutting edge network camera technology
+                            curated for best
+                            durability,
+                            resolution, and performance.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-med-4 col-lg-3 mt-5">
+                <img src="/img/techstacklogo.svg" alt="logo" class="iconitems">
+                <h4 class="secrowheaders">24/7 Maintanence Plans</h4>
+                <div class="row justify-content-center">
+                    <div class="col-10 col-xs-8 col-sm-8 col-lg-10 col-xl-8">
+                        <p class="secondrow">We offer 24/7 around the clock comprehensive maintance packages that
+                            automate the detection
+                            of errors
+                            so that we find and fix any issues before they become problematic.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
+
+        <!-- third row  -->
+        <!-- <div id="thirdrow" class="row" style="width: 1000px; height: 3000px;">
+
+        </div> -->
     </div>
 
 
