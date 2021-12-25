@@ -5,6 +5,7 @@ body {
 
 #mainNavbar {
     font-size: 1.85rem;
+    padding: 0 !important;
 }
 
 #mainNavbar .navbar-brand {
@@ -82,6 +83,7 @@ h2 {
 
 #callbutton {
     font-size: 1.15rem;
+    margin-top: 5px;
 }
 
 #titleimage {
