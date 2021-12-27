@@ -179,10 +179,34 @@ h2 {
         margin-left: auto;
         margin-right: auto;
     }
+    .thirdrowtext {
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 325px) {
     #brandlogo {
         margin: auto;
+    }
+    /* .thirdrowtext {
+        font-size: 25px !important;
+    } */
+    #residentialh5 {
+        font-size: 1.5rem;
+    }
+    #residentialp {
+        font-size: 1.15rem;
+    }
+    #businessh5 {
+        font-size: 1.5rem;
+    }
+    #businessp {
+        font-size: 1.15rem;
+    }
+    #enterpriseh5 {
+        font-size: 1.5rem;
+    }
+    #enterprisep {
+        font-size: 1.15rem;
     }
 }
