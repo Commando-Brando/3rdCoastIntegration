@@ -101,7 +101,18 @@ h2 {
 }
 
 #secondrow {
-    background-color: aliceblue;
+    background-color: #f0f8ff;
+}
+
+#thirdrowtitle {
+    text-align: center;
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.thirdrowtext {
+    text-align: center;
 }
 
 @media (max-width: 1478px) {

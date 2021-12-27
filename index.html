@@ -17,7 +17,7 @@
 
 </head>
 
-<body>
+<body class="p-0">
 
     <!-- nav bar stuff -->
     <nav id="mainNavbar" class="navbar navbar-light navbar-expand-lg justify-content-center fixed-top">
@@ -50,7 +50,7 @@
         </div>
     </nav>
 
-    <div id="maincontent" class="container-fluid">
+    <div id="maincontent" class="container-fluid p-0">
         <img id="titleimage" src="/img/mainlogo.svg" alt="Third Coast Integrated">
 
         <!-- first row  -->
@@ -76,7 +76,6 @@
             <img src="/img/semicircle1.svg" alt="" class="img-fluid w-100">
         </div>
 
-        <!-- ToDo: add 3 cards to represent the various services that are offerred  -->
         <!-- 2nd row  -->
         <div id="secondrow" class="row justify-content-center">
             <div class="col-12 col-sm-6 col-med-4 col-lg-3 mt-5">
@@ -117,10 +116,60 @@
             </div>
         </div>
 
-        <!-- third row  -->
-        <!-- <div id="thirdrow" class="row" style="width: 1000px; height: 3000px;">
+        <div class="d-none d-sm-block">
+            <img src="/img/secondrowborder.svg" alt="" class="img-fluid w-100">
+        </div>
 
-        </div> -->
+        <!-- third row  -->
+        <h3 id="thirdrowtitle">We are here to serve all your security<br>needs no matter the size!</h3>
+
+        <div id="thirdrow" class="row justify-content-center align-items-center">
+
+            <!-- residential card  -->
+            <div class="col-10 col-md-5 col-xl-3">
+                <div class="card text-center" style="width: 20rem; margin: auto;">
+                    <img class="card-img-top" src="/img/house.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title thirdrowtext">Residential</h5>
+                        <p class="card-text thirdrowtext">We work will anyone who needs security whether you want to
+                            make your house more secure or an entire property.
+                        </p>
+                        <a href="contact.html" class="btn btn-primary">Get a quote</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- small business card  -->
+            <div class="col-10 col-md-5 col-xl-3">
+                <div class="card text-center" style="width: 22rem; margin: auto;">
+                    <img class="card-img-top" src="/img/business.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title thirdrowtext">Small Business</h5>
+                        <p class="card-text thirdrowtext">As a small business we love to support other small businesses.
+                            Security can
+                            be
+                            expensive which is why we offer the best rates you can find.
+                        </p>
+                        <a href="contact.html" class="btn btn-primary">Get a quote</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- enterprise card  -->
+            <div class="col-10 col-md-5 col-xl-3">
+                <div class="card text-center" style="width: 20rem; margin: auto;">
+                    <img class="card-img-top" src="/img/enterprise.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title thirdrowtext">Enterprise</h5>
+                        <p class="card-text thirdrowtext">Our state of the art maintantence system and cameras allow
+                            us to safely
+                            and efficiently secure large scale companies with 24/7 technician support.
+                        </p>
+                        <a href="contact.html" class="btn btn-primary">Get a quote</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
 
