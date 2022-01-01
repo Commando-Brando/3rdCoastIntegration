@@ -115,6 +115,15 @@ h2 {
     text-align: center;
 }
 
+#footerspacing {
+    width: auto;
+    height: 30px;
+}
+
+.footimage {
+    display: block;
+}
+
 @media (max-width: 1478px) {
     #maincontent h3 {
         font-size: 1.5rem;
