@@ -3,6 +3,8 @@ body {
     background-color: white;
 }
 
+/* below until the next comment is all related to navbar copy and paste into other navbar files  */
+
 #mainNavbar {
     font-size: 1.85rem;
     padding: 0 !important;
@@ -45,6 +47,13 @@ body {
     }
 }
 
+#callbutton {
+    font-size: 1.15rem;
+    margin-top: 5px;
+}
+
+/* below is contact page exclusive stuff  */
+
 h2 {
     color: black;
     font-weight: 100;
@@ -79,11 +88,6 @@ h2 {
     margin-top: 15px;
     margin-bottom: 8px;
     font-weight: 600;
-}
-
-#callbutton {
-    font-size: 1.15rem;
-    margin-top: 5px;
 }
 
 #titleimage {
